@@ -15,7 +15,7 @@ $(function() {
             mY = e.pageY;
             distance = calculateDistance($(this), mX, mY);
             distance = distance > 900 ? 900 : distance; 
-            $(this).css({ fontWeight: 900 - distance*1.5 });
+            $(this).css({ fontWeight: 900 - distance*1.4 });
         });
              
     });
